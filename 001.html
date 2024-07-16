@@ -360,7 +360,11 @@
 				<span class="current-time">0:00</span> / <span class="duration">0:00</span>
 				</div>
               </li>
+			  
 			  <br>
+			  <hr style="border: 1px solid teal">
+			  <br>
+			  
 			  <li>
                 <b>An-Naba'</b> | Jiharkah
 				<div class="audio-player">
@@ -370,7 +374,11 @@
 				<span class="current-time">0:00</span> / <span class="duration">0:00</span>
 				</div>
               </li>
+			  
 			  <br>
+			  <hr style="border: 1px solid teal">
+			  <br>
+			  
 			  <li>
                 <b>An-Naba'</b> |
 				<div class="audio-player">
@@ -380,7 +388,11 @@
 				<span class="current-time">0:00</span> / <span class="duration">0:00</span>
 				</div>
               </li>
+			  
 			  <br>
+			  <hr style="border: 1px solid teal">
+			  <br>
+			  
 			  <li>
                 <b>Hud ayat 41</b> | Sikah
 				<div class="audio-player">
@@ -390,7 +402,11 @@
 				<span class="current-time">0:00</span> / <span class="duration">0:00</span>
 				</div>
               </li>
+			  
 			  <br>
+			  <hr style="border: 1px solid teal">
+			  <br>
+			  
 			  <li>
                 <b>Al-Humazah</b> | 
 				<div class="audio-player">
@@ -400,7 +416,11 @@
 				<span class="current-time">0:00</span> / <span class="duration">0:00</span>
 				</div>
               </li>
+			  
 			  <br>
+			  <hr style="border: 1px solid teal">
+			  <br>
+			  
 			  <li>
                 <b>Al-Fiil</b> | 
 				<div class="audio-player">
@@ -410,9 +430,13 @@
 				<span class="current-time">0:00</span> / <span class="duration">0:00</span>
 				</div>
               </li>
+			  
 			  <br>
+			  <hr style="border: 1px solid teal">
+			  <br>
+			  
 			  <li>
-                <b>Al-Qadr</b> | 
+                <b>Al-Qadr</b> | Rast
 				<div class="audio-player">
 				<audio class="audio" src="https://github.com/bazliamin90/audio/raw/main/new/Al-qadr%20_%20Ust%20Radzi.m4a"></audio>
 				<button class="play-pause">Play</button>
@@ -441,5 +465,23 @@
     </footer>
 	
 	<script src="scripts.js"></script>
+	
+	<a id="backToTop" class="link-top" onclick="scrollToTop()">Top</a>
+
+	<script>
+    window.onscroll = function() {
+        var backToTopButton = document.getElementById('backToTop');
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            backToTopButton.classList.add('show');
+        } else {
+            backToTopButton.classList.remove('show');
+        }
+    };
+
+    function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+</script>
+
   </body>
 </html>
