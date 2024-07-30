@@ -59,7 +59,3 @@ input[type="range"]::-moz-range-thumb {
 .duration{
 	font-size: 14px;
 }
-
-img{
-	max-width: 70%;
-}
