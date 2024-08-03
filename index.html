@@ -9,7 +9,6 @@
 	<link href="oldbook.css" rel="stylesheet" />
   </head>
   <body>
-    <a href="#main" class="skip-link">Skip to main content</a>
     <header>
       <div class="container">
         <h1>Baz Catit Nota</h1>
@@ -20,11 +19,18 @@
       </div>
     </header>
     <nav>
-      <ul>
-        <li><a href="004.html">☞ Cubaan bunuh Nabi | Luqman M. |</a></li>
-		<li><a href="002.html">☞ Hafazan 1| PASTI |</a></li>
-		<li><a href="003.html">☞ Sakitkah mati syahid? | Usaid S. |</a></li>
-		<li><a href="001.html">☞ Ust Radzi KH | 13.7.2024 |</a></li>
+		<center>
+		<input id="searchbar" 
+               onkeyup="search_animal()" 
+               type="text" name="search" 
+               placeholder="Cari...">
+		</center>
+	
+      <ul id='list'>
+        <li class="animals"><a href="004.html">☞ Cubaan bunuh Nabi | Luqman M. |</a></li>
+		<li class="animals"><a href="002.html">☞ Hafazan 1| PASTI |</a></li>
+		<li class="animals"><a href="003.html">☞ Sakitkah mati syahid? | Usaid S. |</a></li>
+		<li class="animals"><a href="001.html">☞ Ust Radzi KH | 13.7.2024 |</a></li>
       </ul>
     </nav>
     
