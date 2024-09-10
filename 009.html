@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Catit</title>
+    <meta name="description" content="[Your optional description]" />
+    <link href="comic.css" rel="stylesheet" />
+	<link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Baz Catit Nota</h1>
+        <h2>Khazanah ilmu yang mungkin tiada dalam buku</h2>
+      </div>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Homepage</a></li>
+      </ul>
+    </nav>
+
+    <main id="main" tabIndex="-1">
+	<center>
+	<a class="link-github"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 32 32"
+                aria-hidden="true"
+                focusable="false"
+              >
+                <path
+                  d="M32 12.408l-11.056-1.607-4.944-10.018-4.944 10.018-11.056 1.607 8 7.798-1.889 11.011 9.889-5.199 9.889 5.199-1.889-11.011 8-7.798z"
+                ></path>
+              </svg>
+              Khuatirkan dirimu sendiri! | Sy. Soleh al-Fauzan</a>
+    </center>  
+	  <div class="container">
+	  
+		<br><br>
+		
+		  <article id="contribute">
+          <section class="container">
+            <h2>Artikel</h2>
+          </section>
+		  <section class="container">
+            <h3>Iqra'!</h3>
+            
+			<ol>
+			
+              <li>
+				Oleh: <b>Syeikh Soleh al-Fauzan</b>
+				<br>
+				<a href="https://www.facebook.com/100044574033179/posts/1049461656549626/?mibextid=oFDknk&rdid=qD0QmxHF4mrwfUE9" 
+				class="link-twittercontact" 
+				target="_blank">pautan asal</a>
+				<br><br>
+				<img src="https://github.com/bazliamin90/img/blob/
+				main/Screenshot_20240910_221608_Facebook.jpg?raw=true">
+              </li>
+			  
+            </ol>
+          </section>
+          <footer id="files">
+            <div class="container"></div>
+          </footer>
+        </article>		          
+        
+      </div>
+    </main>
+    
+    <footer class="page-footer">
+      <div class="container">
+        <ul>
+          <li>
+            <a href="https://t.me/bazliamin" class="link-twittercontact" target="_blank">@ Telegram</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+	
+	<script src="scripts.js"></script>
+	
+	<a id="backToTop" class="link-top" onclick="scrollToTop()">Top</a>
+
+	<script>
+    window.onscroll = function() {
+        var backToTopButton = document.getElementById('backToTop');
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            backToTopButton.classList.add('show');
+        } else {
+            backToTopButton.classList.remove('show');
+        }
+    };
+
+    function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+</script>
+
+  </body>
+</html>
